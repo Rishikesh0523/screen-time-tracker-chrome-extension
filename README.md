@@ -6,6 +6,8 @@
 
 Screen Time Tracker is a powerful Chrome extension designed to help you monitor and manage your online activities. With features similar to the iPhone's Screen Time, this extension provides comprehensive insights into your web browsing habits, helping you make informed decisions about your digital wellbeing.
 
+*This extension is currently in development, so it might not work as intended. You are free to raise issues and offer solutions to them.*
+
 ## Features
 
 - **Detailed Time Tracking**: Monitor time spent on each website visited.
