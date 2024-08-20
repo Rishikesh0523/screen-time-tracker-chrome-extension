@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen Time Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="chart.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Screen Time</h1>
+    </header>
+    <main>
+      <div id="time-range-tabs">
+        <button class="tab-button active" data-tab="daily">Daily</button>
+        <button class="tab-button" data-tab="weekly">Weekly</button>
+        <button class="tab-button" data-tab="monthly">Monthly</button>
+      </div>
+      <div id="tab-content">
+        <div class="tab-pane active" id="daily-tab">
+          <section id="overview">
+            <h2>Today's Usage</h2>
+            <div id="total-time-today"></div>
+          </section>
+          <section id="detailed-stats">
+            <h2>Website Breakdown</h2>
+            <div id="website-list-today"></div>
+          </section>
+          <section id="charts">
+            <h2>Usage Chart</h2>
+            <div class="chart-container">
+              <canvas id="daily-chart"></canvas>
+            </div>
+          </section>
+        </div>
+        <div class="tab-pane" id="weekly-tab">
+          <section id="overview">
+            <h2>This Week's Usage</h2>
+            <div id="total-time-week"></div>
+          </section>
+          <section id="detailed-stats">
+            <h2>Website Breakdown</h2>
+            <div id="website-list-week"></div>
+          </section>
+          <section id="charts">
+            <h2>Usage Chart</h2>
+            <div class="chart-container">
+              <canvas id="weekly-chart"></canvas>
+            </div>
+          </section>
+        </div>
+        <div class="tab-pane" id="monthly-tab">
+          <section id="overview">
+            <h2>This Month's Usage</h2>
+            <div id="total-time-month"></div>
+          </section>
+          <section id="detailed-stats">
+            <h2>Website Breakdown</h2>
+            <div id="website-list-month"></div>
+          </section>
+          <section id="charts">
+            <h2>Usage Chart</h2>
+            <div class="chart-container">
+              <canvas id="monthly-chart"></canvas>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <button id="settings-btn">Settings</button>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
