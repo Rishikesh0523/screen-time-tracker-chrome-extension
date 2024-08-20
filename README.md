@@ -33,8 +33,8 @@ Screen Time Tracker is a powerful Chrome extension designed to help you monitor 
 
 ![Daily View](screenshots/daily_view.png)
 ![Weekly Stats](screenshots/weekly_stats.png)
-![Usage Chart](screenshots/usage_chart.png)
 ![Settings Page](screenshots/settings_page.png)
+![Usage Chart](screenshots/usage_chart.png)
 
 ## Development
 
